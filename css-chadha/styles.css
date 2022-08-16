@@ -9,8 +9,12 @@ body {
 }
 
 #title {
-  background-color: #ff4c68 ;
+  background-color: #000 ;
   color: white;
+}
+
+.code-div {
+  text-align: center;
 }
 
 .title-container {
@@ -47,10 +51,8 @@ h1 {
   margin: 5% 0;
 }
 
-.title-image {
-  width: 60%;
-  margin-left: 150px;
-  border-radius: 20%;
+.code-icon {
+  font-size: 20rem;
 }
 
 #profiles {
@@ -58,35 +60,41 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #000;
 }
 
-
+.fa-brands {
+  font-size: 50px;
+  position: absolute;
+  margin: auto -70px;
+}
 
 .profile-box {
 
   text-align: center;
   padding: 5%;
-  border-radius: 20%;
+  border-radius: 50px;
   border-style: solid;
   border-width: 10px;
-  border-color: #ff4c68;
+  border-color: #000;
+  background-color: #fff;
   margin: 2rem;
   width: 25%;
-
+  height: 70vh;
 }
 
 .fa-user {
-  color: #ef8172;
+  color: #000;
 }
 
 h2 {
-  color: #ef8172;
+  color: #000;
   font-weight: 600;
   margin: 1.5rem 0 1.5rem 0;
 }
 
 .profile-button {
-  color: #ef8172;
+  color: #000;
   margin-bottom: 1.5rem;
   font-size: 1.2rem;
   display: block;
@@ -94,12 +102,13 @@ h2 {
 }
 
 .profile-button:hover {
-  background-color: #ff4c68;
+  background-color: #000;
+  color: #fff;
 }
 
 
 .fa-instagram {
-  color: #ef8172;
+  color: #000;
   display: inline-block;
 }
 
@@ -108,7 +117,7 @@ h2 {
 }
 
 .fa-twitter {
-  color: #ef8172;
+  color: #000;
   margin-left: 40px;
   display: inline-block;
 }
