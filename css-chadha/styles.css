@@ -7,7 +7,7 @@ body {
   color: white;
 }
 
-.container-fluid {
+.title-container {
   padding: 3% 15%;
 }
 
@@ -52,6 +52,10 @@ h1 {
   display: flex;
 }
 
+.pro-container {
+  margin-left: 50px;
+}
+
 .profile-box {
   text-align: center;
   padding: 5%;
@@ -59,6 +63,7 @@ h1 {
   border-width: 10px;
   border-color: #ff4c68;
   margin: 0 2rem;
+  width: 25%;
 }
 
 .fa-user {
