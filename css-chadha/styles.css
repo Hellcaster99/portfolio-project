@@ -56,45 +56,45 @@ h1 {
 }
 
 #profiles {
-  padding: 8% 2% 2%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 3% 2%;
   background-color: #000;
 }
 
 .fa-brands {
   font-size: 50px;
-  position: absolute;
-  margin: auto -70px;
+
 }
 
 .profile-box {
-
+  box-shadow: 2px 2px 30px grey;
   text-align: center;
   padding: 5%;
   border-radius: 50px;
-  border-style: solid;
-  border-width: 10px;
-  border-color: #000;
-  background-color: #fff;
+  background-color: #000;
   margin: 2rem;
-  width: 25%;
-  height: 70vh;
+
 }
 
 .fa-user {
-  color: #000;
+  color: lightgrey;
+}
+
+.fa-user:hover {
+  color: #fff;
 }
 
 h2 {
-  color: #000;
-  font-weight: 600;
+  color: lightgrey;
+  font-weight: 400;
   margin: 1.5rem 0 1.5rem 0;
 }
 
+h2:hover {
+  color: #fff;
+}
+
 .profile-button {
-  color: #000;
+  color: #fff;
   margin-bottom: 1.5rem;
   font-size: 1.2rem;
   display: block;
@@ -102,26 +102,26 @@ h2 {
 }
 
 .profile-button:hover {
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
 }
 
 
 .fa-instagram {
-  color: #000;
+  color: lightgrey;
   display: inline-block;
 }
 
 .fa-instagram:hover {
-  font-size: 4rem;
+  color: #fff;
 }
 
 .fa-twitter {
-  color: #000;
+  color: lightgrey ;
   margin-left: 40px;
   display: inline-block;
 }
 
 .fa-twitter:hover {
-  font-size: 4rem;
+  color: #fff;
 }
