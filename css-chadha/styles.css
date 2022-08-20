@@ -125,7 +125,7 @@ h2:hover {
 @media (max-width: 900px) {
   .raj-profile {
     position : static;
-    margin: 40px auto;
+    margin: 100px auto;
     width: 70%;
 
   }
