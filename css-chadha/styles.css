@@ -125,3 +125,9 @@ h2:hover {
 .fa-twitter:hover {
   color: #fff;
 }
+
+@media (max-width: 900px) {
+  #profiles {
+    padding: 100px;
+  }
+}
